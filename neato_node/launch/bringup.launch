@@ -1,0 +1,8 @@
+<launch>
+
+  <node pkg="tf" type="static_transform_publisher" name="laser_to_base" 
+    args="-0.1016 0 0.0889 0 0 0 base_link base_laser_link 50" />
+
+  <node name="neato" pkg="neato_node" type="neato.py" output="screen" />
+
+</launch>

@@ -1,0 +1,19 @@
+<package>
+  <name>neato_driver</name>
+  <version>0.2.0</version>
+  <description>
+    This is a generic drivers for the Neato XV-11 Robotic Vacuum.
+  </description>
+  <author>Michael Ferguson</author>
+  <maintainer email="ferguson@cs.albany.edu">Michael Ferguson</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/neato_driver</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>python-serial</run_depend>
+
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export> 
+</package>

@@ -1,0 +1,15 @@
+<package>
+  <name>neato_2dnav</name>
+  <version>0.2.0</version>
+  <description>
+    This package contains configuration and launch files for using the navigation stack with the Neato XV-11 robot.
+  </description>
+  <author>Michael Ferguson</author>
+  <maintainer email="ferguson@cs.albany.edu">Michael Ferguson</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/neato_2dnav</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>neato_node</run_depend>
+</package>

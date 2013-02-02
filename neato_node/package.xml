@@ -1,0 +1,20 @@
+<package>
+  <name>neato_node</name>
+  <version>0.2.0</version>
+  <description>
+    A node wrapper for the neato_driver package
+  </description>
+  <author>Michael Ferguson</author>
+  <maintainer email="ferguson@cs.albany.edu">Michael Ferguson</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/neato_node</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>neato_driver</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>tf</run_depend>
+</package>
