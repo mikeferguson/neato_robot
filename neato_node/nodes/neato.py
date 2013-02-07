@@ -41,7 +41,7 @@ from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 from tf.broadcaster import TransformBroadcaster
 
-from neato_driver import xv11, BASE_WIDTH, MAX_SPEED
+from neato_driver.neato_driver import xv11, BASE_WIDTH, MAX_SPEED
 
 class NeatoNode:
 
