@@ -6,4 +6,4 @@ inflation_radius: 0.42
 transform_tolerance: 1.0
 
 observation_sources: base_scan
-base_scan: {sensor_frame: base_laser, data_type: LaserScan, topic: base_scan, marking: true, clearing: true}
+base_scan: {sensor_frame: base_laser_link, data_type: LaserScan, topic: base_scan, marking: true, clearing: true}
