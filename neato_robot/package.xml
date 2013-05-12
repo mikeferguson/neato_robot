@@ -9,6 +9,8 @@
   <license>BSD</license>
   <url>http://ros.org/wiki/neato_robot</url>
 
+  <buildtool_depend>catkin</buildtool_depend>
+
   <run_depend>neato_driver</run_depend>
   <run_depend>neato_node</run_depend>
   <run_depend>neato_2dnav</run_depend>
