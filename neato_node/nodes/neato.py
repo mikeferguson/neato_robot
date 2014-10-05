@@ -55,8 +55,8 @@ class NeatoNode:
         self.robot = xv11(self.port)
 
         rospy.Subscriber("cmd_vel", Twist, self.cmdVelCb)
-        self.scanPub = rospy.Publisher('base_scan', LaserScan)
-        self.odomPub = rospy.Publisher('odom',Odometry)
+        self.scanPub = rospy.Publisher('base_scan', LaserScan, queue_size=10)
+        self.odomPub = rospy.Publisher('odom', Odometry, queue_size=10)
         self.odomBroadcaster = TransformBroadcaster()
 
         self.cmd_vel = [0,0] 
