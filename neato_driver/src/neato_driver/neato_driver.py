@@ -178,9 +178,9 @@ class xv11():
         if (int(l) == 0 and int(r) == 0 and int(s) == 0):
             if (not self.stop_state):
                 self.stop_state = True
-            l = 1
-            r = 1
-            s = 1
+                l = 1
+                r = 1
+                s = 1
         else:
             self.stop_state = False
 
